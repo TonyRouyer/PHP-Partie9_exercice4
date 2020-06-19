@@ -9,8 +9,7 @@
     <?php 
         $date = mktime(15, 0, 0, 8, 2, 2016);
     ?>
-    <?= 'Timestamp 2 aout 2016 15h00 : ' .$date  ?>
+    <p><?= 'Timestamp actuel : ' . time() ?></p>
+    <p><?= 'Timestamp 2 aout 2016 15h00 : ' .$date  ?></p>
 </body>
 </html>
-
-
